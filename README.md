@@ -30,17 +30,17 @@ Sub ABCs()
     For InputRow = FIRST_DATA_ROW To LastRow
             'First Row of Current Stock
             'If WS.Range("A", InputRow + 1).Value <> WS.Range("A", InputRow).Value Then
-            Ticker = WS.Range("A", InputRow).Value
+            'Ticker = WS.Range("A", InputRow).Value
             
                 TotalVol = 0
             
            'End If
             
-            CurrentVol = Cells(InputRow, VOLUME_COL)
-            TotalVol = TotalVol + CurrentVol
+            'CurrentVol = Cells(InputRow, VOLUME_COL)
+            'TotalVol = TotalVol + CurrentVol
             
             'Last Row of Current Stock
-            If Cells(InputRow + 1, TICKER_COL).Value <> Cells(InputRow, TICKER_COL).Value Then
+            'If Cells(InputRow + 1, TICKER_COL).Value <> Cells(InputRow, TICKER_COL).Value Then
                 'Ticker = Cells(InputRow, TICKER_COL).Value
     
             

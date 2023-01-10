@@ -20,7 +20,7 @@ Sub ABCs()
    
    ## Naming Cell Headers
    
-  ![pic1](Screenshot 2023-01-09 at 11.13.54 PM.png)
+  ![pic1]([Screenshot 2023-01-09 at 11.13.54 PM.png](https://github.com/Tymberk93/VBA_Challenge/blob/main/Screenshot%202023-01-09%20at%2011.13.54%20PM.png)
     
     Range("I1").Value = "Ticker"
     Range("J1").Value = "Total Stock Volume"
